@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\DB;
 
 class CarsTableSeeder extends Seeder
 {
-    public function run()
+    public function run(): void
     {
         DB::table('cars')->insert(
           [
@@ -49,5 +49,5 @@ class CarsTableSeeder extends Seeder
           ]
         );
     }
-
 }
+

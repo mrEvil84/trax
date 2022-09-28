@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\DB;
 
 class UsersTableSeeder extends Seeder
 {
-    public function run()
+    public function run(): void
     {
         DB::table('users')->insert(
             [
@@ -24,5 +24,5 @@ class UsersTableSeeder extends Seeder
             ]
         );
     }
-
 }
+
