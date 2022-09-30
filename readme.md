@@ -85,3 +85,17 @@ docker exec -it trax_php_1 npm run watch
 Commit your changes locally and when finished, publish your repo on your public bitbucket or github account.
 
 **GOOD LUCK!**
+
+### Some notes from me:
+
+#### How to set up db:
+```
+docker exec -it trax_php_1 php artisan migrate
+docker exec -it trax_php_1 php artisan db:seed --class=CarsTableSeeder
+docker exec -it trax_php_1 php artisan db:seed --class=TripsTableSeeder
+```
+
+#### How to test:
+```
+docker exec -it trax_php_1 php ./vendor/phpunit/phpunit/phpunit --configuration ./phpunit.xml
+```
