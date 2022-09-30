@@ -22,6 +22,8 @@ class TripsTableSeeder extends Seeder
                     'miles' => 11.3,
                     'total' => 45.3,
                     'date' => Carbon::now()->subDays(1),
+                    'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+                    'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
                 ],
                 [
                     'id' => 2,
@@ -30,6 +32,8 @@ class TripsTableSeeder extends Seeder
                     'miles' => 12.0,
                     'total' => 34.1,
                     'date' => Carbon::now()->subDays(2),
+                    'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+                    'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
                 ],
                 [
                     'id' => 3,
@@ -38,6 +42,8 @@ class TripsTableSeeder extends Seeder
                     'miles' => 6.8,
                     'total' => 22.1,
                     'date' => Carbon::now()->subDays(3),
+                    'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+                    'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
                 ],
                 [
                     'id' => 4,
@@ -46,6 +52,8 @@ class TripsTableSeeder extends Seeder
                     'miles' => 5,
                     'total' => 15.3,
                     'date' => Carbon::now()->subDays(4),
+                    'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+                    'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
                 ],
                 [
                     'id' => 5,
@@ -54,6 +62,8 @@ class TripsTableSeeder extends Seeder
                     'miles' => 10.3,
                     'total' => 10.3,
                     'date' => Carbon::now()->subDays(5),
+                    'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+                    'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
                 ]
             ]
         );

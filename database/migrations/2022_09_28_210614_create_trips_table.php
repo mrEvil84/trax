@@ -26,6 +26,7 @@ class CreateTripsTable extends Migration
             $table->float('total');
 
             $table->timestamp('date');
+            $table->timestamps();
         });
     }
 
